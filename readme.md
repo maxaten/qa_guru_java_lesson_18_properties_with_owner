@@ -18,12 +18,12 @@
 
 ## Запуск тестов
 
-Для запуска тестов локально:
-```shell
-gradle test -Denv=local
+Запустить проект локально:
+```bash
+gradle clean test -Dlaunch=local
 ```
 
-Для запуска тестов на Selenoid:
-```shell
-gradle test -Denv=remote
+Запустить проект удаленно в `Selenoid`:
+```bash
+gradle clean test -Dlaunch=remote
 ```
