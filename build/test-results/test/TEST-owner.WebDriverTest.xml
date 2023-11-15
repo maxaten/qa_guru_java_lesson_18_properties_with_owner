@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="owner.WebDriverTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-14T17:27:25" hostname="DESKTOP-Q06RBO6" time="6.449">
-  <properties/>
-  <testcase name="testGitHub()" classname="owner.WebDriverTest" time="6.449"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 119.0.6045.105 (resolved driver for Chrome 119)
-[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\verti\.cache\selenium\chromedriver\win64\119.0.6045.105\chromedriver.exe
-]]></system-err>
-</testsuite>
