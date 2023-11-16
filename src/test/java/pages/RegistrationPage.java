@@ -3,7 +3,7 @@ package pages;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-import helpers.deleteFooterAndAdd;
+import helpers.DeleteFooterAndAdd;
 import io.qameta.allure.Step;
 
 import pages.components.CalendarComponent;
@@ -18,7 +18,7 @@ public class RegistrationPage {
     String uri = "/automation-practice-form";
 
     CalendarComponent calendar = new CalendarComponent();
-    deleteFooterAndAdd footerAndAdd = new deleteFooterAndAdd();
+    DeleteFooterAndAdd footerAndAdd = new DeleteFooterAndAdd();
 
     SelenideElement titleLabel = $(".practice-form-wrapper"),
                     firstNameInput = $("#firstName"),
